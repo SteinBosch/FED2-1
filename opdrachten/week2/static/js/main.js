@@ -14,12 +14,9 @@ var app = app || {};
 			this.index();
 		},
 		index: function() {
-			console.log("called index gps");	
+			console.log("called index gps");
+			app.debug.log();	
 		}
-	}
-
-	app.debug = {
-
 	}
 
 	app.controller.init();
